@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         HomePage.name: (context) => const HomePage(),
         AboutPage.name: (context) => const AboutPage(),
       },
-      builder:BotToastInit(),
+      builder: BotToastInit(),
       navigatorObservers: [BotToastNavigatorObserver()],
     );
   }
